@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Tamil Rockers</title>
+    <link rel="icon" href="Images/TR Logo only white.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand sticky-top navbar-light" id="navigation_bar">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="index.html">
+        <img src="Images/icon.jpg" width="30" height="30" alt="" style="margin-left: 10px;">
+      </a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+
+          <ul class="navbar-nav mr-auto mt-lg-0">
+            <li class="nav-item dropdown ">
+              <a class="nav-link navbarTogglerDemo01 text-light mx-4" href="request.html" style="font-family: Poppins;">Movie <i class="fa fa-caret-down"  aria-hidden="true" style="color: white; margin-left: 5px;"></i></a>
+                  <div class="dropdown-content" style="left: 0;">
+                    <a href="englishMovies.html">English</a>
+                    <a href="#">Tamil</a>
+                    <a href="#">Hindi</a>
+                    <a href="#">Malayalam</a>
+                  </div>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link mx-3 text-light" href="request.html" style="font-family: Poppins;">Movie Request</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link mx-3 text-light" href="suggested.html" style="font-family: Poppins;">Suggestion</a>
+            </li>
+            
+          </ul>
+
+          <div class="searchbar">
+            <input class="search_input" type="text" name="" placeholder="I'm Looking for...">
+            <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
+          </div>
+          
+          <i class="fa fa-bell" style="padding: 0px 20px 0px 10px; color: #fff;"></i>
+        </div>
+
+        <img src="Images/dp.jpg"  width="50px" alt="">
+        <div class="dropdown">
+          <i class="fa fa-caret-down" id="dropbtn" aria-hidden="true" style="color: white;" ></i>
+          <div class="dropdown-content">
+            <a href="profile.html"><i class="fa fa-user" style="margin-right: 20px;"></i> Profile</a>
+            <a href="editprofile.html"><i class="fa fa-cog" style="margin-right: 20px;"></i>Settings</a>
+            <a href="helpDesk.html"><i class="fa fa-question-circle" style="margin-right: 20px;"></i>Help</a>
+            <a href="index&login.html"><i class="fa fa-sign-out" style="margin-right: 20px;"></i>Logout</a>
+          </div>
+        </div>
+        <!--
+        <button class="btn btn-danger">Login</button>
+        -->
+    </div>
+</nav>
+
+ 
+     
+    <div class="main_container" style="background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url('Images/pexels-pixabay-63328.jpg');width: 100%;background-size: cover;">
+
+      <div class="d-flex justify-content-center py-4" id="btn_div">
+        <button class="genre mx-4" ><a href="" style="color: white;">Action</a></button>
+        <button class="genre mx-4" ><a href="" style="color: white;">Comedy</a></button>
+        <button class="genre mx-4" ><a href="" style="color: white;">Drama</a></button>
+        <button class="genre mx-4" ><a href="" style="color: white;">Thriller</a></button>
+        <button class="genre mx-4" ><a href="" style="color: white;">Horror</a></button>
+        <button class="genre mx-4" ><a href="" style="color: white;">Animation</a></button>
+        <button class="genre mx-4" ><a href="" style="color: white;">Fictional</a></button>
+      </div>
+
+
+      <div class="row d-flex justify-content-center mx-auto">
+
+       
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card mt-4" style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/bigil.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"><a href="AboutMovieWithHeader.html"> Bigil </a> </p>
+            <div class="stars my-4 ml-3">
+               <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 6.8 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+        <a href="#" style="text-decoration: none;">
+        <div class="image_card mt-4" style="margin: 0px 50px 0px 50px" >
+          <img src="Images/Movie Posters/Gypsy.jpg" width="200px">
+          <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> Gypsy </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 6.5 </span></span>
+          </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" style="text-decoration: none;">
+        <div class="image_card mt-4" style="margin: 0px 50px 0px 50px">
+          <img src="Images/Movie Posters/joker.jpg" width="200px">
+          <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> <a href="AboutMovieWithHeader.html">Joker </a></p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 8.5 </span></span>
+          </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" style="text-decoration: none;">
+        <div class="image_card mt-4" style="margin: 0px 50px 0px 50px">
+          <img src="Images/Movie Posters/pattas.jpg" width="200px">
+          <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> Pattas </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 5.7 </span></span>
+          </div>
+          </div>
+        </div>
+      </a>
+
+      <a href="#" style="text-decoration: none;">
+        <div class="image_card mt-4" style="margin: 0px 50px 0px 50px">
+          <img src="Images/Movie Posters/Soorarai-Pottru.jpg" width="200px">
+          <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> Soorarai Pottru <span style="color: tomato; font-size: 12px;"> N/A </span></p>
+          </div>
+        </div>
+      </div>
+    </a>
+    
+
+      <div class="row d-flex justify-content-center mx-auto">
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card" style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/moon.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> Moonlight </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 7.4 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card" style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/drive.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> Drive </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 7.8 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card " style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/baby.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> <a href="AboutMovieWithHeader.html">Driver</a> </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 7.6 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card" style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/world.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> WFL </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 4.6 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card" style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/black panther.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"><a href="AboutMovieWithHeader.html"> Black Panther </a> </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 7.8 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="row d-flex justify-content-center mx-auto">
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card" style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/charlie.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> Charlie </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 7.9 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card" style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/ohmy kadavule.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> Oh my Kadavule </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 8.1 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card" style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/ok.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> OK Kanmani </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 7.4 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card" style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/Ponmagal Vanthal.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> Ponmagal Vanthal </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 6.8 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+        <a href="#" style="text-decoration: none;">
+          <div class="image_card" style="margin: 0px 50px 0px 50px">
+            <img src="Images/Movie Posters/ka.jpg" width="200px">
+            <div class="movie_rating d-flex justify-content-center" style="display: flex;">
+            <p class="my-4 " style="font-size: 16px;"> Kaithi </p>
+            <div class="stars my-4 ml-3">
+              <span class="fa fa-star checked" style="font-size: 20px; "> <span style="font-size: 16px;"> 8.5 </span></span>
+          </div>
+          </div>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+
+    
+      
+      
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark" >
+
+  <div style="background-color: #a31c1c;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0" >
+          <h6 class="mb-0" style="color: white;">Get connected with us on social networks!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fa fa-facebook-f white-text mr-4" style="color: white;"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fa fa-twitter white-text mr-4" style="color: white;"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fa fa-google white-text mr-4" style="color: white;"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fa fa-instagram white-text" style="color: white;"> </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5" >
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold" style="color: white;">TamilRockers.WS</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;" >
+        <p style="color: white;">Tamil Rockers is a torrent website which facilitates the illegal distribution of copyrighted material, including television shows, movies, music and videos.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="color: white;">Essentials</h6>
+        <hr class="hr.line  mb-4 mt-0 d-inline-block mx-auto" style="width: 80px; border: 1px solid red;">
+        <p>
+          <a href="index.html" style="color: white;">Home</a>
+        </p>
+        <p>
+          <a href="helpDesk.html" style="color: white;">Help Desk</a>
+        </p>
+        <p>
+          <a href="suggested.html" style="color: white;">Suggested Movies</a>
+        </p>
+        <p>
+          <a href="request.html" style="color: white;">Movie Request</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="color: white;">Movies</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 80px; border: 1px solid red;">
+        <p>
+          <a href="englishMovies.html" style="color: white;">English</a>
+        </p>
+        <p>
+          <a href="#!" style="color: white;">Tamil</a>
+        </p>
+        <p>
+          <a href="#!" style="color: white;">Telugu</a>
+        </p>
+        <p>
+          <a href="#!" style="color: white;">Kanada</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold" style="color: white;">Contact</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 80px; border: 1px solid red;">
+        <p style="color: white;">
+          <i class="fa fa-home mr-3"></i> Colombo, Sri Lanka</p>
+        <p style="color: white;">
+          <i class="fa fa-envelope mr-3" ></i> info@tamilrockers.com</p>
+        <p style="color: white;">
+          <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p style="color: white;">
+          <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3" style="color: white;">© 2020 Copyright:
+    <a href="index.html" style="color: red;"> TamilRockers.ws</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+     
+
+
+<script src="https://kit.fontawesome.com/yourcode.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+</body>
+</html>
