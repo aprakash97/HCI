@@ -80,7 +80,7 @@
           <div class="col-md-4 mt-5 rounded">
               <div class="card">
                   <h5 class="card-header info-color white-text text-center py-4">
-                  <strong>ForgotPassword</strong>
+                  <strong>Reset Password</strong>
                   </h5>
                   <!--Card content-->
                   <div class="card-body px-lg-5 pt-0">
@@ -89,18 +89,16 @@
                       <!-- Email -->
                       <div class="md-form">
                       <?= $errors?>
-                          <input type="email"name="email" id="email" class="form-control" placeholder="E-mail">
+                          <input type="password"name="pw1" id="pw" class="form-control" placeholder="New Password">
                       </div>
+
+                      <?= $errors?>
+                      <input type="password"name="pw2" id="pw" class="form-control" placeholder="Retype Password">
+                      </div>
+
                       <!-- Sign in button -->
-                      <button class="forgotPwSubmit" type="submit">Send Code To Mail</button>
+                      <button class="forgotPwSubmit" type="submit">Enter Password</button>
                       <br>
-                      <!-- Social login -->
-                      <a href="registration.html">Sing Up</a>
-                      <p>or sign in with:</p>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                      <a href="#"><i class="fa fa-youtube"></i></a>
-                      <a href="#"><i class="fa fa-linkedin"></i></a>
-                  </form>
                   <!-- Form -->
                   </div>
               </div>
